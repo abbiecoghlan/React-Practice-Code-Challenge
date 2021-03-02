@@ -42,7 +42,6 @@ class App extends Component {
   }
 
   updateSushiCount = () => {
-
     if (this.state.sushiCount >= this.state.filteredSushi.length - 4) {
       this.setState({
         sushiCount: 0,

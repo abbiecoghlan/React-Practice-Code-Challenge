@@ -20,6 +20,7 @@ const Table = (props) => {
   function handleSubmit(event){
     event.preventDefault()
     props.addToBudget(parseInt(wallet))
+    setWallet(0)
   }
 
   return (
